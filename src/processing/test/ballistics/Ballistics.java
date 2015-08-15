@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 
-public class Ballistics extends PAppletlol {
+public class Ballistics extends PApplet {
 
 	public int posX;// = width/3;
 	public int posY;// = 250;
