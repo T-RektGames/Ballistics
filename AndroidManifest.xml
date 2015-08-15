@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="2.0" package="processing.test.ballistics">
+   <uses-sdk android:minSdkVersion="8" />
+   <application android:icon="@drawable/icon" android:label="Ballistics">
+      <activity android:name="processing.test.ballistics.Ballistics" android:screenOrientation="portrait">
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+   </application>
+</manifest>
